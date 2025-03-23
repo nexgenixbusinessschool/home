@@ -700,8 +700,9 @@ text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00;
     max-width: 350px;
     max-height: 350px;
     object-fit: cover;
+}
 
-    /* Responsive: Allow wrapping only if screen is too small */
+/* Responsive: Allow wrapping only if screen is too small */
 @media (min-width: 300px) and (max-width: 900px) {
     * {
         width: 100%;
@@ -714,7 +715,4 @@ text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00;
         justify-content: center;
         gap: 20px;
     }
-}
-
-
 }
