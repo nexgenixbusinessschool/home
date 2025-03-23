@@ -16,25 +16,27 @@
         <img src="logo-bs.png" alt="logo" class="logo">
         <a href="#">NEX GENIX BUSINESS SCHOOL</a>
     </div>
-    <ul class="nav-list">
-        <li><a href="#welcome_section">Home</a></li>
-        <li><a href="#about_us">About Us</a></li>
-        <li><a href="#products_and_services">Products and Services</a></li>
-        <li><a href="#reviews">Reviews</a></li>
-	<li><a href="#careers">Careers</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-<div class="auth-buttons" id="auth-buttons">
-    <button onclick="handleLogout()" class="logout-btn">Logout</button>
-    <a href="dashboard.html" class="dashboard-btn">Dashboard</a>
-</div>
 
-<div class="user-profile" id="user-profile" style="display: none;">
-    <span id="user-name"></span>
-    <button onclick="handleLogout()" class="logout-btn">Logout</button>
-</div>
+    <!-- Hamburger Menu Button (Hidden on Large Screens) -->
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
 
+    <!-- Nav Links -->
+    <div class="nav-container">
+        <ul class="nav-list">
+            <li><a href="#welcome_section">Home</a></li>
+            <li><a href="#about_us">About Us</a></li>
+            <li><a href="#products_and_services">Products and Services</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#careers">Careers</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
 
+        <!-- Auth Buttons (Move Inside Menu on Small Screens) -->
+        <div class="auth-buttons">
+            <button onclick="handleLogout()" class="logout-btn">Logout</button>
+            <a href="dashboard.html" class="dashboard-btn">Dashboard</a>
+        </div>
+    </div>
 </nav>
 
 <!-- Welcome Section -->
