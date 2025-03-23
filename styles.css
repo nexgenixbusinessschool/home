@@ -718,14 +718,7 @@ text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00;
     }
 
     /* Navbar adjustments */
-    #navbar {
-        flex-direction: column;
-        height: auto;
-        padding: 10px;
-        align-items: center;
-    }
-
-    .hamburger {
+        .hamburger {
         display: block; /* Show hamburger icon on small screens */
     }
 
@@ -746,34 +739,6 @@ text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00;
 
     .nav-list li {
         padding: 10px 0;
-    }
-    
-    #navbar .nav-list {
-        position: static;
-        transform: none;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 8px;
-    }
-
-    #navbar .nav-list a {
-        font-size: 12px;
-        padding: 6px;
-    }
-
-    .navbar a {
-        font-size: 14px; 
-        padding: 8px 12px; 
-    }
-
-    .navbar {
-        padding: 10px 20px; 
-    }
-
-    .navbar button {
-       font-size: 14px;
-       padding: 6px 10px;
     }
 
 
