@@ -719,11 +719,10 @@ text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00;
 
     /* Navbar adjustments */
         .hamburger {
-        display: block; /* Show hamburger icon on small screens */
-    }
+        display: block; /* 
 
     .nav-list {
-        display: none; /* Hide the menu by default */
+        display: none; 
         flex-direction: column;
         background: #121212;
         width: 100%;
@@ -734,7 +733,7 @@ text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00;
     }
 
     .nav-list.active {
-        display: flex; /* Show menu when active */
+        display: flex;
     }
 
     .nav-list li {
