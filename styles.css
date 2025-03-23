@@ -322,25 +322,6 @@ p {
   margin-top: 10px;
 }
 
-/* Responsive: Allow wrapping only if screen is too small */
-@media (max-width: 900px) {
-    .counter-container {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-    }
-
-    .counter-item {
-        width: 45%; /* Two per row on smaller screens */
-    }
-}
-
-@media (max-width: 500px) {
-    .counter-item {
-        width: 100%; /* One per row on extra small screens */
-    }
-}
-
 .contact-buttons {
     display: flex;
     justify-content: center;
@@ -720,5 +701,19 @@ text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00;
     max-width: 350px;
     max-height: 350px;
     object-fit: cover;
+
+    /* Responsive: Allow wrapping only if screen is too small */
+@media (min-width: 300px) and (max-width: 900px) {
+    * {
+        width: 100%;
+    }
+    
+    .counter-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
 
 }
