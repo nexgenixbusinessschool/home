@@ -731,6 +731,21 @@ text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00;
         padding: 6px;
     }
 
+    .navbar a {
+  font-size: 14px; 
+  padding: 8px 12px; 
+}
+
+.navbar {
+  padding: 10px 20px; 
+}
+
+.navbar button {
+  font-size: 14px;
+  padding: 6px 10px;
+}
+
+
     /* Adjust Welcome Section */
     #welcome-section {
         padding: 20px;
