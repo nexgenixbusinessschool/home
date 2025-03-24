@@ -704,7 +704,7 @@ text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00;
 }
 
 /* RESPONSIVE FOR SMALL SCREEN DEVICES */
-@media (min-width: 600px) and (max-width: 768px) {
+@media (max-width: 768px) {
     * {
     width: 100%
     }
